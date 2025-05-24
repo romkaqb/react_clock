@@ -38,8 +38,8 @@ export class App extends React.Component<{}, State> {
   }
 
   componentDidUpdate(): void {
-    // eslint-disable-next-line no-console
-    console.warn(`Renamed from Clock-0 to ${this.state.clockName}`);
+      // eslint-disable-next-line no-console
+      console.warn(`Renamed from Clock-0 to ${this.state.clockName}`);
   }
 
   hideClockFunc = () => {
